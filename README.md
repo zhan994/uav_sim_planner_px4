@@ -1,4 +1,4 @@
-# agi_sim_planner_px4
+# uav_sim_planner_px4
 
 **A repo. which used to check PnC algorithms using PX4-Gazebo simulation tools.**
 
@@ -9,9 +9,9 @@
 - QGC
 - nlopt
 
-Baidu NetDisk for px4_firmware :  https://pan.baidu.com/s/10zeMxHhbHWKQPqyAnBEwAg?pwd=vpxw 
+Baidu NetDisk for specific px4_firmware :  https://pan.baidu.com/s/10zeMxHhbHWKQPqyAnBEwAg?pwd=vpxw 
 
-You can add sth. from [XTDrone](https://gitee.com/robin_shaun/XTDrone.git) into px4_firmware.
+You can add sth. from [XTDrone](https://gitee.com/robin_shaun/XTDrone.git) into px4 firmware.
 
 ```bash
 git clone https://gitee.com/robin_shaun/XTDrone.git
@@ -55,7 +55,7 @@ make px4_sitl_default gazebo
 Copy data in folder `sim_tools` to **px4_firmware**.
 
 ```bash
-git clone git@github.com:zhan994/agi_sim_planner_px4.git
+git clone git@github.com:zhan994/uav_sim_planner_px4.git
 
 cd agi_sim_px4_ros1/sim_tools
 # 添加launch文件
