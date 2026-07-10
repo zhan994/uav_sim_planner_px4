@@ -57,11 +57,11 @@ Copy data in folder `sim_tools` to **px4_firmware**.
 ```bash
 git clone git@github.com:zhan994/uav_sim_planner_px4.git
 
-cd agi_sim_px4_ros1/sim_tools
+cd uav_sim_planner_px4/sim_tools
 # 添加launch文件
 cp launch/* ~/work/px4_firmware/launch/
 # 添加世界文件
-cp worlds/* ~/work/px4_firmware/Tools/sitl_gazebo/worlds/
+cp worlds/* ~/work/px4_firmware/Tools/sitl_gazebo/worlds
 # 修改部分模型文件
 cp -r models/* ~/work/px4_firmware/Tools/sitl_gazebo/models/ 
 ```
