@@ -2,19 +2,27 @@
 
 **A repo. which used to check PnC algorithms using PX4-Gazebo simulation tools.**
 
-## Prerequisites
+**Supported Platform**
 
-- ros1 noetic
+- ROS-Noetic
+
+**PnC algorithms**
+
+- Fast-Planner
+- EGO-Planner-V2
+
+## Third-party
+
 - [px4_firmware](https://docs.px4.io/main/en/ros/mavros_installation.html)
 - QGC
 - nlopt
 
-Baidu NetDisk for specific px4_firmware :  https://pan.baidu.com/s/10zeMxHhbHWKQPqyAnBEwAg?pwd=vpxw 
+## Build
 
-You can add sth. from [XTDrone](https://gitee.com/robin_shaun/XTDrone.git) into px4 firmware.
+[BaiduNetDisk](https://pan.baidu.com/s/16_ZIItK_E36Lj_5PIMS4zg?pwd=tz48) for specific `px4_firmware` and `XTDrone`. You can add sth. from [`XTDrone`](https://gitee.com/robin_shaun/XTDrone.git) into `px4_firmware`.
 
 ```bash
-git clone https://gitee.com/robin_shaun/XTDrone.git
+git clone https://gitee.com/robin_shaun/XTDrone.git # Or using XTDrone from BaiduNetDisk
 cd XTDrone
 git checkout 1_13_2
 git submodule update --init --recursive
@@ -52,7 +60,7 @@ make px4_sitl_default gazebo
 
 ## Run
 
-Copy data in folder `sim_tools` to **px4_firmware**.
+Copy data in folder `sim_tools` to `px4_firmware`.
 
 ```bash
 git clone git@github.com:zhan994/uav_sim_planner_px4.git
